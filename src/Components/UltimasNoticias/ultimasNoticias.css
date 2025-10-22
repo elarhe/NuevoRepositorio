@@ -1,0 +1,13 @@
+.d-flex > div:first-of-type {
+    color: red;
+    margin-right: 10px;
+}
+.d-flex > div:last-of-type {
+    color: grey;
+    margin-right: 10px;
+}
+.div-title-ultimas div{
+    font-weight: bold;
+    color: green;
+
+}

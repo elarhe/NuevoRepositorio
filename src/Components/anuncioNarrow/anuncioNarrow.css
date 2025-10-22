@@ -1,0 +1,19 @@
+.card-image-anuncio {
+    width: 300px; 
+    background-color: red;
+}
+
+.card-anuncio {
+    width: 100%;
+    height: 100px; 
+
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Si el texto jjjj sigue ahí, puede que quieras ocultar el overflow */
+.card-image div {
+    overflow: hidden;
+    text-indent: -9999px; /* Para ocultar el texto si no lo puedes borrar */
+}
